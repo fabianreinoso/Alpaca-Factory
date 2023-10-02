@@ -3,7 +3,7 @@ import Filter from "./Filter";
 
 const CatTrees = () => {
   const toyItem = ProductData().TOY_ITEMS.filter((item) => {
-    return item.category === "catTrees";
+    return item.category === "Hombres";
   });
   const title = "Accesorios Para Hombres";
   return <Filter toyItem={toyItem} title={title} />;
