@@ -45,7 +45,7 @@ const ProductButton = (props) => {
       </div>
       <div>
         <button onClick={addItemToCartHandler} className={styles.addToCartBtn}>
-          Add To Cart
+          Agregar al carrito
         </button>
       </div>
     </div>

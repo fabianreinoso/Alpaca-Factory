@@ -1,7 +1,7 @@
 import Footer from "../footer/Footer";
 import MenuNavBar from "../menuNavBar/MenuNavBar";
 import styles from "../UI/Error.module.css";
-import errorCat from "../../assets/errorCat.png";
+import errorCat from "../../assets/errorCat.jpg";
 import { Link } from "react-router-dom";
 
 const Error = () => {
@@ -11,13 +11,13 @@ const Error = () => {
       <div className={styles.errorContainer}>
         <div>
           <div className={styles.imgContainer}>
-            <div className={styles.title}>SORRY</div>
+            <div className={styles.title}>Lo siento</div>
             <img className={styles.catImg} src={errorCat} />
           </div>
-          <div className={styles.content}>We couldn't find that page</div>
+          <div className={styles.content}>No pudimos encontrar esa página.</div>
         </div>
         <Link className={styles.btnContainer} to="/">
-          <button className={styles.shopBtn}>Continue Shopping</button>
+          <button className={styles.shopBtn}>Continue</button>
         </Link>
       </div>
       <Footer />
