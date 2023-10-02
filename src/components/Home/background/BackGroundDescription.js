@@ -4,9 +4,9 @@ const BackGroundDescription = () => {
   return (
     <div className={styles.description}>
       <p>
-        <span className={styles.webTitle}>Cat's Playland</span>
+        <span className={styles.webTitle}>Alpaca Factory</span>
         <span className={styles.webSlogan}>
-          Illuminate the Cat's World, Creating an Exclusive Playground!
+        "Las alpacas, con su suave lana y mirada tierna, son el tesoro de los Andes."
         </span>
       </p>
     </div>

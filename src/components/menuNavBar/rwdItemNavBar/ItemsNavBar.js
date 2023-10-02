@@ -27,23 +27,23 @@ const ItemsNavBar = () => {
           </Link>
         </div>
         <div className={styles.titleContainer}>
-          <Link to="/catTrees" className={styles.title} onClick={closeHandler}>
-            Cart Trees
+          <Link to="/Men" className={styles.title} onClick={closeHandler}>
+            Accesorios para Hombres
           </Link>
         </div>
         <div className={styles.titleContainer}>
-          <Link to="/fountains" className={styles.title} onClick={closeHandler}>
-            Fountains & Bowls
+          <Link to="/Women" className={styles.title} onClick={closeHandler}>
+            Accesorios para Mujeres
           </Link>
         </div>
         <div className={styles.titleContainer}>
-          <Link to="/apparel" className={styles.title} onClick={closeHandler}>
-            Apparel
+          <Link to="/Accesorios" className={styles.title} onClick={closeHandler}>
+            Accesorios varios
           </Link>
         </div>
         <div className={styles.titleContainer}>
-          <Link to="/toys" className={styles.title} onClick={closeHandler}>
-            Toys
+          <Link to="/Unisex" className={styles.title} onClick={closeHandler}>
+            Unisex
           </Link>
         </div>
       </nav>

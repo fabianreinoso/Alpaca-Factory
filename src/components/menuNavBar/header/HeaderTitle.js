@@ -12,29 +12,32 @@ const HeaderTitle = () => {
       >
         Home
       </NavLink>
+
       <NavLink
-        to="/catTrees"
+        to="/Men"
         className={({ isActive }) => (isActive ? styles.active : styles.title)}
       >
-        Cat Trees
+        Hombres
+      </NavLink>
+
+      <NavLink
+        to="/Women"
+        className={({ isActive }) => (isActive ? styles.active : styles.title)}
+      >
+        Mujeres
       </NavLink>
       <NavLink
-        to="/fountains"
+        to="/Accesorios"
         className={({ isActive }) => (isActive ? styles.active : styles.title)}
       >
-        Fountains & Bowls
+        Accesorios
       </NavLink>
+
       <NavLink
-        to="/apparel"
+        to="/Unisex"
         className={({ isActive }) => (isActive ? styles.active : styles.title)}
       >
-        Apparel
-      </NavLink>
-      <NavLink
-        to="/toys"
-        className={({ isActive }) => (isActive ? styles.active : styles.title)}
-      >
-        Toys
+        Unisex
       </NavLink>
     </div>
   );
