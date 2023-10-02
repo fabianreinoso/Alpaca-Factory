@@ -10,6 +10,8 @@ import ErrorPage from "./components/UI/Error";
 import OderConfirm from "./components/UI/OrderConfirm";
 import SimpleInput from "./components/menuNavBar/header/Account";
 import Account from "./components/menuNavBar/header/Account";
+import ContactForm from './components/footer/contactForm';
+import Blog from './components/blog/Blog';
 import AccountPage from "./pages/Account";
 import Men from "./pages/Men";
 
@@ -33,6 +35,8 @@ function App() {
         { path: "search", element: <SearchPage /> },
         { path: "confirmation", element: <OderConfirm /> },
         { path: "account", element: <AccountPage /> },
+        { path: "contactUs", element: <ContactForm /> },
+        { path: "blog", element: <Blog /> },
       ],
     },
   ]);

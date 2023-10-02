@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -28,7 +29,11 @@ const Footer = () => {
             <div className={styles.title}>Company Info</div>
             <ul className={styles.content}>
               <li>About Us</li>
-              <li>Contact Us</li>
+              <li>
+                <Link to="/contactUs">
+                  <a>Contact Us</a>
+                </Link>
+              </li>
               <li>Customer Reviews</li>
             </ul>
           </div>

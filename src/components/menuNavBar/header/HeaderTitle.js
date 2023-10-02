@@ -39,6 +39,12 @@ const HeaderTitle = () => {
       >
         Unisex
       </NavLink>
+      <NavLink
+        to="/blog"
+        className={({ isActive }) => (isActive ? styles.active : styles.title)}
+      >
+        Blog
+      </NavLink>
     </div>
   );
 };

@@ -33,13 +33,13 @@ const SubmitCheckout = (props) => {
 
   const handlePhoneNumberChange = (event) => {
     const { value } = event.target;
-    const cleanedPhoneNumber = value.replace(/\D/g, "");
+    const cleanedPhoneNumber = value.replace(/\D/g, "").slice(0, 10);
     setPhoneNumber(cleanedPhoneNumber);
   };
 
   const nameRef = useRef();
   const emailRef = useRef();
-  //   const phoneRef = useRef();
+  const phoneRef = useRef();
   const addressRef = useRef();
   const postalRef = useRef();
   const cityRef = useRef();
@@ -91,7 +91,6 @@ const SubmitCheckout = (props) => {
     dispatch(cartActions.initial());
     dispatch(uiActions.toggle());
     dispatch(uiActions.formToggle());
-
     console.log(items);
 
     navigate("/confirmation");
@@ -158,7 +157,6 @@ const SubmitCheckout = (props) => {
       </div>
       <div className={styles.actions}>
         <button type="button" onClick={closeFormHandler}>
-          {/*onClick={props.onCancel}*/}
           Cancel
         </button>
 
