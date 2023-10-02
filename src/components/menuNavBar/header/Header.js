@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import styles from "./styles/Header.module.css";
 import HeaderButton from "./HeaderButton";
 import HeaderTitle from "./HeaderTitle";
-import shopLogo from "../../../assets/shopLogo.jpg";
+import shopLogo from "../../../assets/shopLogo.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -18,5 +18,4 @@ const Header = () => {
     </Fragment>
   );
 };
-
 export default Header;

@@ -1,5 +1,5 @@
 import styles from "../UI/OderConfirm.module.css";
-import happyCat from "../../assets/happyCat.png";
+import happyCat from "../../assets/happyCat.jpg";
 import { Link } from "react-router-dom";
 
 const OrderConfirm = () => {
