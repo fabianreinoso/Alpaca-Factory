@@ -3,7 +3,7 @@ import Filter from "./Filter";
 
 const Accesorios = () => {
   const toyItem = ProductData().TOY_ITEMS.filter((item) => {
-    return item.category === "apparel";
+    return item.category === "Accesorios";
   });
   const title = "Accesorios varios";
 

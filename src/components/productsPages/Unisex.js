@@ -3,7 +3,7 @@ import Filter from "./Filter";
 
 const Unisex = () => {
   const toyItem = ProductData().TOY_ITEMS.filter((item) => {
-    return item.category === "toys";
+    return item.category === "Unisex";
   });
   const title = "Unisex";
 
