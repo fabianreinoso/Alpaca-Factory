@@ -28,7 +28,9 @@ const Footer = () => {
             <div className={styles.title}>Informacion de la compañia</div>
             <ul className={styles.content}>
               <li>About Us</li>
-              <li>Contact Us</li>
+              <li>
+                <Link to="/contactUs">Contact Us</Link>
+              </li>
               <li>Customer Reviews</li>
             </ul>
           </div>
