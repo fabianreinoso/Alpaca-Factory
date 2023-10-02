@@ -2,25 +2,26 @@ const ProductData = () => {
   const TOY_ITEMS = [
     {
       id: "m1",
-      name: "Hand Made Blue Gold Cat Bib",
+      name: "Medias para botas hechas a mano",
       description:
-        "Perfect for everyday wear photo shoots parties weddings or just making your pet look the best. Looks stylish and cute on every occasion. Make your pet stand out from the crowd.",
+        "Perfecto para uso diario, sesiones de fotos o simplemente para hacer que tu puedas lucir mejor. Luce elegante y linda en cada ocasión. Hace que destaques entre la multitud",
       feature: [
-        "【Soft Material】High quality material soft and durable strong air permeability will not fade. You don't have to worry about your pet being uncomfortable.",
-        "【Unique Design】Cute bell with beatiful bowknot 100% handmade makes your pet look as elegant as a little princess.",
-        "【Suitable for all occasions】Perfect for everyday wear photo shoots parties weddings or just making your pet look the best. Looks stylish and cute on every occasion. Make your pet stand out from the crowd.",
+        "【Material Suave】 Material de alta calidad, suave y duradero, fuerte permeabilidad al aire que no se desvanece. No tienes que preocuparte de que te sientas incómoda",
+        "【Diseño unico】Lindas medias con un hermoso lazo 100% hecha a mano hace qu luzcas tan elegante como una princesita.",
+        "【Adecuado para todas las ocasiones】Perfecto para uso diario, sesiones de fotos o simplemente para hacer que tu puedas lucir mejor. Luce elegante y linda en cada ocasión. Hace que destaques entre la multitud",
       ],
       price: 19,
-      image: "Hand Made Blue Gold Cat Bib b1.jpg",
+      image: "Medias para botas hechas a mano b1.png",
       detailImg: [
-        "Hand Made Blue Gold Cat Bib b1.jpg",
-        "Hand Made Blue Gold Cat Bib b2.jpg",
-        "Hand Made Blue Gold Cat Bib b3.jpg",
+        "Medias para botas hechas a mano b1.png",
+        "Medias para botas hechas a mano b2.png",
+        "Medias para botas hechas a mano b3.png",
       ],
-      overlayImage: "Hand Made Blue Gold Cat Bib b2.jpg",
+      overlayImage: "Medias para botas hechas a mano b2.jpg",
       category: "apparel",
       poppular: true,
     },
+
     {
       id: "m2",
       name: "Purple Bear Harness",

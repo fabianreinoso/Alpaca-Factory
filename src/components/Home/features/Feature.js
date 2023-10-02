@@ -11,10 +11,9 @@ const Feature = () => {
         <div className={styles.featureContainer}>
           <div className={styles.diverse}>
             <div className={styles.overlay}>
-              <span className={styles.title}>Wide variety cat toys</span>
+              <span className={styles.title}>Amplia variedad de prendas de alta calidad </span>
               <span>
-                Diverse selection of cat toys tailored to your cat's
-                preferences.
+                Diversa selección de prendas para todos segun su preferencia
               </span>
             </div>
             <img
@@ -23,14 +22,13 @@ const Feature = () => {
               alt="A Cat with a cat tree!"
             />
           </div>
-          <button>Variety</button>
+          <button>Variedad</button>
         </div>
-
         <div className={styles.featureContainer}>
           <div className={styles.safety}>
             <div className={styles.overlay}>
-              <span className={styles.title}>High-quality and safe</span>
-              <span>Premium quality cat toys for safety and durability.</span>
+              <span className={styles.title}>De alta calidad y segura</span>
+              <span>Prendas de primera calidad para mayor seguridad y durabilidad.</span>
             </div>
             <img
               className={styles.imgs}
@@ -38,16 +36,15 @@ const Feature = () => {
               alt="A Cat with a cat bed!"
             />
           </div>
-          <button>Safety</button>
+          <button>Seguridad</button>
         </div>
 
         <div className={styles.featureContainer}>
           <div className={styles.interaction}>
             <div className={styles.overlay}>
-              <span className={styles.title}>Promote interaction</span>
+              <span className={styles.title}>Confort</span>
               <span>
-                Engage your cat with interactive play for physical and mental
-                stimulation.
+              Proporcioanmso bienestar o comodidad.
               </span>
             </div>
             <img
@@ -56,7 +53,7 @@ const Feature = () => {
               alt="A Cat with a cat toy!"
             />
           </div>
-          <button>Interaction</button>
+          <button>Bienestar</button>
         </div>
       </div>
     </div>

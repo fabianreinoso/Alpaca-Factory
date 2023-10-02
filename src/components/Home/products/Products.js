@@ -24,7 +24,7 @@ const Products = () => {
   return (
     <main className={styles.centerContainer}>
       <div id="shopNow" className={styles.title}>
-        BEST SELLING PRODUCTS
+          PRODUCTOS MÁS VENDIDOS
       </div>
       <div className={styles.container}>{toyItem}</div>
     </main>
