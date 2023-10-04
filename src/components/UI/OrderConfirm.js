@@ -1,21 +1,20 @@
 import styles from "../UI/OderConfirm.module.css";
 import happyCat from "../../assets/happyCat.jpg";
-import { Link } from "react-router-dom";
 
 const OrderConfirm = () => {
   return (
     <>
       <div className={styles.container}>
         <div>
-          <img src={happyCat} className={styles.catImg} />
+          <img src={happyCat} className={styles.catImg} alt="happyCat" />
         </div>
         <div className={styles.popup}>
           <h2>Your Order is complete!</h2>
           <p>You will be receiving a confirmation email with order details.</p>
         </div>
-        <Link className={styles.btnContainer} to="/">
+        <a className={styles.btnContainer} href="/">
           <button className={styles.ShoppingBtn}>Continue Shopping</button>
-        </Link>
+        </a>
       </div>
     </>
   );

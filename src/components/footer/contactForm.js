@@ -50,19 +50,7 @@ const ContactForm = (props) => {
     resetEmailInput();
     resetMessageInput();
   };
-
-  const nameInputClasses = nameInputHasError
-    ? `${styles["form-control"]} ${styles.invalid}`
-    : styles["form-control"];
-
-  const emailInputClasses = emailInputHasError
-    ? `${styles["form-control"]} ${styles.invalid}`
-    : styles["form-control"];
-
-  const messageInputClasses = messageInputHasError
-    ? `${styles["form-control"]} ${styles.invalid}`
-    : styles["form-control"];
-
+  
   return (
     <form onSubmit={formSubmissionHandler} className={styles.container}>
       <div className={styles.inputContainer}>

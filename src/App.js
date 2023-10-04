@@ -7,9 +7,7 @@ import UnisexPage from "./pages/Unisex";
 import WomenPage from "./pages/Women";
 import SearchPage from "./pages/Search";
 import ErrorPage from "./components/UI/Error";
-import OderConfirm from "./components/UI/OrderConfirm";
-import SimpleInput from "./components/menuNavBar/header/Account";
-import Account from "./components/menuNavBar/header/Account";
+import OrderConfirm from "./components/UI/OrderConfirm";
 import ContactForm from './components/footer/contactForm';
 import Blog from './components/blog/Blog';
 import AccountPage from "./pages/Account";
@@ -33,7 +31,7 @@ function App() {
         { path: "Unisex", element: <UnisexPage /> },
         { path: "Men", element: <Men /> },
         { path: "search", element: <SearchPage /> },
-        { path: "confirmation", element: <OderConfirm /> },
+        { path: "confirmation", element: <OrderConfirm /> },
         { path: "account", element: <AccountPage /> },
         { path: "contactUs", element: <ContactForm /> },
         { path: "blog", element: <Blog /> },
