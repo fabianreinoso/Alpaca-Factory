@@ -29,7 +29,7 @@
 
 .cartIconContainer {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .cartIcon {
@@ -47,7 +47,7 @@
 
 .addToCartIconContainer {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .productCard:hover .cartIcon {

@@ -9,7 +9,7 @@
 .container {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
   padding: 0 2rem;
   margin-bottom: 3.8rem;
 }
@@ -54,7 +54,7 @@
   line-height: 1.8rem;
   padding: 1.5rem;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
   opacity: 0;
